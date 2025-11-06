@@ -14,10 +14,10 @@ const db = mysql.createConnection({
 
 db.connect((err) => {
   if (err) {
-    console.error("❌ MySQL Connection Failed:", err);
+    console.error("❌ Database Connection Failed:", err);
     process.exit(1);
   }
-  console.log("✅ Connected to Aiven MySQL");
+  console.log("✅ Connected to Aiven MySQL Successfully");
 });
 
 module.exports = db;

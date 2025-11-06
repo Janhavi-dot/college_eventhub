@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Event</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+</head>
+
+<body class="p-5">
+<h2>Add New Event</h2>
+
+<form action="/add" method="POST" enctype="multipart/form-data">
+  <input type="text" name="title" class="form-control mb-2" placeholder="Event Title" required>
+  <textarea name="description" class="form-control mb-2" placeholder="Event Description" required></textarea>
+  <input type="date" name="event_date" class="form-control mb-2" required>
+  <input type="text" name="image" class="form-control mb-2" required>
+  <button class="btn btn-success">Submit</button>
+</form>
+
+</body>
+</html>

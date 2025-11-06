@@ -1,0 +1,19 @@
+{
+  "name": "collegeeventhub",
+  "version": "1.0.0",
+  "description": "College Event Hub Website for MIT ADT University",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Janhavi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.3"
+  }
+}
